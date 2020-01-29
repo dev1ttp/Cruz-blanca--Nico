@@ -299,6 +299,33 @@ footer {
     padding-top: 20px;
     font-style: italic; }
 
+.box-licencias {
+  height: 126px;
+  width: 100%;
+  border-radius: 47px;
+  background-color: #ffffff; }
+  .box-licencias input {
+    margin-top: 15px; }
+  .box-licencias h5 {
+    margin-top: 30px; }
+  .box-licencias h1 {
+    padding-top: 30px;
+    font-style: italic; }
+  .box-licencias h4 {
+    margin-top: 50px; }
+  .box-licencias .img-status {
+    margin-top: 40px;
+    padding-left: 30px; }
+
+.status-pago {
+  color: #007033; }
+.status-pendiente {
+  color: #A4219B; }
+.status-recibido {
+  color: #678003; }
+.status-resolucion {
+  color: #414141; }
+
 .header-index {
   height: 300px;
   background-color: white;
@@ -394,6 +421,48 @@ input[type="checkbox"] + span {
 input[type="checkbox"]:checked + span {
   background: url(../img/radio-check.png);
   background-size: cover; }
+
+.paginador {
+  width: 100%;
+  height: 50px;
+  margin: 50px auto;
+  text-align: center; }
+
+.arrow-next {
+  font-size: 2rem;
+  display: inline-block;
+  margin: 0 0.2em 0 0.2em; }
+
+.arrow-prev {
+  font-size: 2rem;
+  display: inline-block;
+  margin: 0 0.2em 0 0.2em; }
+
+.pag-box-active {
+  height: 56px;
+  width: 56px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  display: inline-block;
+  font-size: 1.8rem;
+  margin: 0 0.2em 0 0.2em;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #0079C8;
+  border: 6px solid #0079C8; }
+
+.pag-box-no-active {
+  height: 56px;
+  width: 56px;
+  background-color: #0079C8;
+  border-radius: 12px;
+  font-size: 1.8rem;
+  display: inline-block;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  margin: 0 0.2em 0 0.2em;
+  color: #ffffff;
+  border: 6px solid #0079C8; }
 
 @media only screen and (max-width: 1079px) and (min-width: 981px) {
   body {
