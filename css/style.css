@@ -317,6 +317,26 @@ footer {
     margin-top: 40px;
     padding-left: 30px; }
 
+.box-licencias-full {
+  height: 204px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #0079C8;
+  background-color: #ffffff; }
+  .box-licencias-full input {
+    margin-top: 15px; }
+  .box-licencias-full h5 {
+    margin-top: 10px; }
+  .box-licencias-full h1 {
+    padding-top: 30px;
+    font-style: italic; }
+  .box-licencias-full h4 {
+    margin-top: 10px; }
+  .box-licencias-full .border-left {
+    border-left: 1px solid #939A9E; }
+  .box-licencias-full .row {
+    height: 100%; }
+
 .status-pago {
   color: #007033; }
 .status-pendiente {
