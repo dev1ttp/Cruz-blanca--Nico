@@ -337,6 +337,16 @@ footer {
   .box-licencias-full .row {
     height: 100%; }
 
+.box-input {
+  height: 131px;
+  width: 100%;
+  border-radius: 17px;
+  background-color: #ffffff; }
+  .box-input h4 {
+    margin-top: 35px; }
+  .box-input h3 {
+    margin-top: -5px; }
+
 .status-pago {
   color: #007033; }
 .status-pendiente {
@@ -439,6 +449,23 @@ input[type="checkbox"] + span {
   cursor: pointer; }
 
 input[type="checkbox"]:checked + span {
+  background: url(../img/radio-check.png);
+  background-size: cover; }
+
+input[type="radio"] {
+  display: none; }
+
+input[type="radio"] + span {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin: 25px 4px 0 0;
+  vertical-align: middle;
+  background: url(../img/radio-uncheck.png);
+  background-size: cover;
+  cursor: pointer; }
+
+input[type="radio"]:checked + span {
   background: url(../img/radio-check.png);
   background-size: cover; }
 
