@@ -131,7 +131,8 @@ body {
   height: 118px; }
 
 /* FORM */
-input {
+input,
+select {
   width: 100%;
   height: 75px;
   border-radius: 47px;
@@ -143,7 +144,10 @@ input {
   outline: none;
   text-align: center;
   font-family: 'Montserrat';
-  font-weight: 700; }
+  font-weight: 300; }
+
+option {
+  text-align: center !important; }
 
 input::placeholder {
   font-size: 2.25rem;
@@ -153,6 +157,21 @@ input::placeholder {
   font-style: italic;
   opacity: 50%; }
 
+select,
+input,
+option {
+  text-align-last: center;
+  text-align: center;
+  -ms-text-align-last: center;
+  -moz-text-align-last: center;
+  text-transform: uppercase; }
+
+select {
+  background: url(../img/arrow-down.png) no-repeat right;
+  -webkit-appearance: none;
+  background-position-x: 680px;
+  text-align-last: center; }
+
 .button-login {
   width: 392px;
   height: 113px;
@@ -160,6 +179,9 @@ input::placeholder {
   border: none;
   color: #ffffff;
   background-color: #0079C8; }
+
+select option {
+  margin-left: 60px; }
 
 button:disabled,
 button[disabled] {
@@ -382,17 +404,24 @@ footer {
   background-color: #ffffff;
   color: #0079C8; }
 
+.blue-cuenta {
+  height: 52px;
+  width: 100%;
+  border-radius: 13px;
+  color: #ffffff;
+  background-color: #0079C8;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 1.26rem;
+  padding-top: 10px;
+  margin-top: 8px; }
+
 .modal-content {
-  border: 10px solid #00549C;
-  margin-top: 60%; }
-.modal-dialog {
-  max-width: 100% !important; }
-.modal p {
-  color: #00549C;
-  font-size: 3rem; }
-.modal span {
-  font-size: 2rem;
-  color: #AFAFAF; }
+  border: 10px solid #0079C8; }
+
+.modal-backdrop {
+  background-color: white; }
 
 .menu-text {
   font-size: 3rem;
@@ -404,6 +433,20 @@ footer {
   .select-detail:active {
     color: #00549C;
     transform: scale(1.2); }
+
+.box-detalle-blue {
+  position: absolute;
+  bottom: 250px;
+  padding: 30px 60px;
+  height: 194px;
+  line-height: 130%;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #ffffff;
+  background-color: #0079C8;
+  border-radius: 10px; }
 
 .spinner-border {
   width: 10rem;
@@ -469,6 +512,23 @@ input[type="radio"]:checked + span {
   background: url(../img/radio-check.png);
   background-size: cover; }
 
+.check-visible {
+  display: block !important;
+  background-color: #0079C8;
+  height: 50px;
+  margin-top: 20px; }
+
+.terminos {
+  position: absolute;
+  bottom: 250px;
+  opacity: 0.5; }
+
+#boton-cambio,
+#boton-cambio1,
+#boton-cambio2 {
+  background-color: rgba(0, 0, 0, 0);
+  border: none; }
+
 .paginador {
   width: 100%;
   height: 50px;
@@ -510,6 +570,39 @@ input[type="radio"]:checked + span {
   margin: 0 0.2em 0 0.2em;
   color: #ffffff;
   border: 6px solid #0079C8; }
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  font-size: 2rem;
+  display: block;
+  background: url(../img/date.png) no-repeat;
+  width: 50px;
+  height: 50px;
+  z-index: 100000;
+  margin-top: 10px;
+  border-width: thin; }
+
+input[type="date"]::-webkit-outer-spin-button,
+input[type="date"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; }
 
 @media only screen and (max-width: 1079px) and (min-width: 981px) {
   body {

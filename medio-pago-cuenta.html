@@ -56,7 +56,7 @@
 
     <div class="row text-center">
         <div class="col-12 mt-5">
-            <h2 class="text-grey">SELECCIONA LA FORMA DE PAGO</h2>
+            <h2 class="text-grey">AUTORIZACIÓN DE DEPOSITOS</h2>
 
         </div>
 
@@ -65,42 +65,31 @@
                 <div class="col-12 mb-3">
                     <hr>
                 </div>
+                <div class="col-12 text-center">
+                    <span class="text-blue h4 light">Autorizo a Isapre CruzBlanca S.A. para depositar el pago correspondiente a solicitudes
+                        de reembolsos de presentaciones médicas, pago de licencias médicas y devolución de
+                        excesos en la siguiente cuenta bancaria.</span>
+                </div>
 
-                <div class="col-12">
-                    <label class="w-100" for='theinput'>
-                    <div class="box-input shadow-sm animated bounceInLeft  mt-3">
-                        <div class="row">
-                            <div class="col-3">
-                                <input type="radio" id='theinput' name="select"><span class="animated bounceIn slow"></span>
-                            </div>
-                            <div class="col-9 text-left">
-                                <h4 class="text-grey">Deposito en la Cuenta Vista</h4>
-                                <h3 class="text-blue">Nº 169190319002 | Banco de Chile </h3>
-                            </div>
-                        </div>
-                    </div>
-                    </label>
-                    <a href="medio-pago-no-registrada.html">
-                        <div class="animated bounceInLeft slow blue-cuenta">
-                            Si deseas modificar tu cuenta, puedes hacerlo aquí
-                        </div>
-                    </a>
+                <div class="col-10 offset-1 mt-5">
+                    <span><h3 class="text-blue">Banco</h3></span>
+                    <select name="select" id="selectCenter">
+                        <option value="value1" selected disabled>Seleccione Banco...</option> 
+                        <option value="value1">Value 1</option> 
+                        <option value="value2" >Value 2</option>
+                        <option value="value3">Value 3</option>
+                      </select>
 
-                    <label class="w-100" for='theinput1'>
-                        <div class="box-input shadow-sm animated bounceInLeft  mt-3">
-                            <div class="row">
-                                <div class="col-3">
-                                    <input type="radio" id='theinput1'  name="select"><span class="animated bounceIn slow"></span>
-                                </div>
-                                <div class="col-9 text-left">
-                                    <h4 class="text-grey">Vale vista para retirar en cualquier sucursal</h4>
-                                    <h3 class="text-blue">Banco BCI</h3>
-                                </div>
-                            </div>
-                        </div>
-                        
-    
-                        </label>
+                    <span><h3 class="text-blue">Tipo de cuenta</h3></span>
+                    <select name="select">
+                        <option value="value1"  selected disabled>Seleccione Cuenta...</option> 
+                          <option value="value1">Value 1</option> 
+                          <option value="value2">Value 2</option>
+                          <option value="value3">Value 3</option>
+                        </select>
+
+                    <span><h3 class="text-blue">Nº de Cuenta</h3 class="text-blue"></span>
+                    <input type="text" placeholder="Ingrese Nº de cuenta">
 
 
 
@@ -120,13 +109,28 @@
 
 
     </div>
+
+    <div class="row w-100 ml-0">
+        <div class="col-10 offset-1  box-detalle-blue">
+            <span>
+
+            Si por razones ajenas a Isapre CruzBlanca S.A. el
+depósito es rechazado por el banco, autorizo enviar
+un Vale Vista al banco BCI, 
+en un plazo de 6 días Hábiles. Te recordamos que el vale
+vista lo podrás retirar en cualquier sucursal del banco.
+
+        </span>
+        </div>
+    </div>
+
     <div class="row text-center content-btn w-100">
 
         <div class="col-6">
             <button class="btn-gral back  animated bounceIn slow" onclick="window.location='menu.html'"><i class="fas fa-chevron-left mr-4"></i>VOLVER</button>
         </div>
         <div class="col-6">
-            <button class="btn-gral next  animated bounceIn slow" onclick="window.location='reembolso-p1.html'">SIGUIENTE<i class="fas fa-chevron-right ml-4"></i></button>
+            <button class="btn-gral next  animated bounceIn slow" onclick="window.location='medio-pago-cuenta-ok.html'">SIGUIENTE<i class="fas fa-chevron-right ml-4"></i></button>
         </div>
     </div>
 
@@ -140,6 +144,10 @@
     </footer>
     <script src="js/jquery-1.11.1.js "></script>
     <script src="js/bootstrap/bootstrap.min.js "></script>
+
+
+
+
 
 </body>
 
