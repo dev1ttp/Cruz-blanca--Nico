@@ -614,6 +614,10 @@ input[type="date"]::-webkit-inner-spin-button {
 .line-down {
   border-bottom: 1px solid #939A9E; }
 
+.alerta {
+  display: block;
+  margin-top: 70%; }
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px; }
