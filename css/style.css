@@ -339,6 +339,45 @@ footer {
     margin-top: 40px;
     padding-left: 30px; }
 
+.img-line {
+  position: absolute;
+  margin-left: -180px;
+  margin-top: 30px; }
+
+.margin-card {
+  margin-top: 250px; }
+
+.box-total-bonos {
+  position: absolute;
+  bottom: 400px; }
+
+.box-pagos-pendientes {
+  height: 216px;
+  width: 100%;
+  border-radius: 23px;
+  background-color: #ffffff; }
+  .box-pagos-pendientes .input-pago-pendiente {
+    width: 51px;
+    height: 51px;
+    margin-right: 50px;
+    margin-top: 0px; }
+  .box-pagos-pendientes hr {
+    background-color: #888888;
+    height: 1px;
+    opacity: 0.2; }
+  .box-pagos-pendientes h1 {
+    font-size: 3rem; }
+  .box-pagos-pendientes h4 {
+    padding-top: 40px; }
+  .box-pagos-pendientes h5 {
+    margin-top: 30px; }
+  .box-pagos-pendientes img {
+    position: absolute;
+    margin-left: -80px; }
+
+.big-font-h1 {
+  font-size: 3rem; }
+
 .box-licencias-full {
   height: 204px;
   width: 100%;
@@ -517,6 +556,9 @@ input[type="radio"]:checked + span {
   background-color: #0079C8;
   height: 50px;
   margin-top: 20px; }
+
+.ma-4-4 {
+  margin-top: 38px; }
 
 .terminos {
   position: absolute;
