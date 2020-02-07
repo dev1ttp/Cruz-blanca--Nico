@@ -238,6 +238,12 @@ button[disabled] {
   margin: auto;
   border-radius: 40px; }
 
+.box-cotizaciones {
+  width: 100%;
+  height: 307px;
+  border-radius: 30px;
+  background-color: #ffffff; }
+
 /* END FORM*/
 hr {
   background-color: #0079C8;
@@ -652,6 +658,13 @@ input[type="date"]::-webkit-inner-spin-button {
   margin-top: 20px;
   margin-bottom: 50px;
   background-color: white; }
+
+.cotizaciones-poss {
+  bottom: 265px !important; }
+
+.cotizaciones-poss-2 {
+  position: fixed;
+  bottom: 420px; }
 
 .line-down {
   border-bottom: 1px solid #939A9E; }
