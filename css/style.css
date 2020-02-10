@@ -381,6 +381,31 @@ footer {
     position: absolute;
     margin-left: -80px; }
 
+.box-compra-bono {
+  height: 100%;
+  padding-bottom: 20px;
+  width: 100%;
+  border-radius: 23px;
+  background-color: #ffffff; }
+  .box-compra-bono .input-pago-pendiente {
+    width: 51px;
+    height: 51px;
+    margin-right: 50px;
+    margin-top: 0px; }
+  .box-compra-bono hr {
+    background-color: #888888;
+    height: 1px;
+    opacity: 0.2; }
+  .box-compra-bono h1 {
+    font-size: 3rem; }
+  .box-compra-bono h4 {
+    padding-top: 40px; }
+  .box-compra-bono h5 {
+    margin-top: 30px; }
+  .box-compra-bono img {
+    position: absolute;
+    margin-left: -80px; }
+
 .big-font-h1 {
   font-size: 3rem; }
 
@@ -659,6 +684,12 @@ input[type="date"]::-webkit-inner-spin-button {
   margin-bottom: 50px;
   background-color: white; }
 
+.box-compra {
+  width: 380px;
+  height: 380px;
+  background-color: #ffffff;
+  border-radius: 40px; }
+
 .cotizaciones-poss {
   bottom: 265px !important; }
 
@@ -672,6 +703,10 @@ input[type="date"]::-webkit-inner-spin-button {
 .alerta {
   display: block;
   margin-top: 70%; }
+
+.mod-fott {
+  bottom: 250px !important;
+  position: fixed; }
 
 /* width */
 ::-webkit-scrollbar {
