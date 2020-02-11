@@ -206,6 +206,8 @@ button[disabled] {
 .box-clave {
   height: 334px;
   width: 334px;
+  background-color: #ffffff;
+  border: none;
   margin: auto;
   border-radius: 25px; }
   .box-clave img {
